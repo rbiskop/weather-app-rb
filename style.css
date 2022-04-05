@@ -1,5 +1,91 @@
-h1 {
+body {
+  background-image: url(sky.jpg);
+  background-size: 120%;
+  color: black;
+}
+
+h1,
+p {
   text-align: center;
+  color: black;
+}
+
+h1,
+h2 {
+  margin: 35px;
+}
+h2 {
+  text-align: center;
+  line-height: 1.5;
+}
+h3 {
+  text-align: left;
+  margin-left: 30px;
+}
+h5 {
+  text-align: center;
+}
+
+#location-button {
+  border-radius: 8px;
+  margin-left: 15px;
+}
+#location-button:hover {
+  background: #502bd8;
+}
+
+#f-converter,
+#c-converter {
+  cursor: pointer;
+}
+
+#f-converter:hover,
+#c-converter:hover {
+  color: #502bd8;
+  font-style: oblique;
+  transition: ease-in-out all 100ms;
+}
+
+.intro {
+  font-size: 12.5px;
+  margin-top: 20px;
+}
+.search {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.current-temp {
+  font-size: 35px;
+}
+.current-date {
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+.temperature,
+.degree-converter {
+  text-align: center;
+}
+
+.weather-icon {
   font-size: 40px;
-  color: aqua;
+  text-align: center;
+}
+.next-days {
+  display: block;
+  position: relative;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+.card-text {
+  color: black;
+}
+
+.next-icons {
+  position: relative;
+  font-size: 60px;
+  margin-left: 30px;
 }
